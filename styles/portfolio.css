@@ -18,8 +18,27 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
-
 }
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font: size 35px;
+    margin-bottom: 30px; 
+    
+
+ 
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+    
+}
+
 .logo h2{
     font-size: 45px;
     font-weight: 900;
@@ -62,13 +81,15 @@ nav .menu a{
 
 #banner{
     /* border: 1px solid red; */
-    /* margin: 47px 38px 0px 230px; */
+    margin: 47px 38px 0px 230px;
     display: flex;
     justify-content:space-between ;
     align-items: center;
+    /* border: 1px solid red; */
 }
 #banner .banner-content{
     max-width: 585px;
+    
 }
 #banner .banner-content h2{
     font-size: 45px;
@@ -93,4 +114,33 @@ nav .menu a{
 #banner .banner-image{
     max-width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;       /* dui pash thake soman gap niya se boshe jabe*/
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px ;
+
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info.info-card p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info.info-card h4 {
+   font-size: 20px;
 }
